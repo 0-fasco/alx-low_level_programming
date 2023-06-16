@@ -2,10 +2,11 @@
 #include <unistd.h>
 /**
  * main - A c program that prints a line to the standad error
- * Return: 1 (Success)
+ * Return: 1 (not success)
  */
 int main(void)
 {
-fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19"\n, stdout);
+char quo[]= "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+write(1,quo,59);
 return (1);
 }
