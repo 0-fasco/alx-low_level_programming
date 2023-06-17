@@ -3,7 +3,7 @@
 #include<stdio.h>
 /**
  * main - Prints the alphabet in lowercase, and then in uppercase, followed by a new line
-8 * Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
