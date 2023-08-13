@@ -5,7 +5,7 @@
  * Return: 0 (success)
  */
 
-int main()
+int main(void)
 {
 	int i;
 
@@ -13,8 +13,9 @@ int main()
 	{
 		if (i != 101 && i != 113)
 		{
-	putchar(i);
+			putchar(i);
 		}
 	}
-return (0);
+	putchar('\n');
+	return (0);
 }
